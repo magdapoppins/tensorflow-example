@@ -276,7 +276,7 @@
 
 - endpoint:
     name: greet
-    image: python:3.6
+    image: eu.gcr.io/valohai-dev/dd-test
     port: 8000
     server-command: python -m wsgiref.simple_server
 
